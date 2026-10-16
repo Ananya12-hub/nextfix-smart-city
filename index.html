@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NextFix – Where should we fix first?</title><link rel="stylesheet" href="style.css"></head><body>
+<header><div><h1>Next<span>Fix</span></h1><p>Your city's next best fix · Explainable priority queue for city operations</p></div><div class="team">Team: Data Duo</div></header>
+<main>
+<section class="banner wide" id="banner"></section>
+<section class="card"><h2>Filters</h2>
+<label>Issue type<select id="type"></select></label><label>Zone<select id="zone"></select></label>
+<h2>What matters most? <button id="reset">Reset</button></h2><div id="weights"></div>
+<p class="note">Complaints are not split by issue type; the type filter applies to incident data.</p></section>
+<section class="card"><h2>Map <small>colour = priority (red = fix first) · click a dot</small></h2><canvas id="map" width="640" height="460"></canvas></section>
+<section class="card" id="detail"></section>
+<section class="card wide"><h2>Priority queue <small id="count"></small></h2><div class="scroll"><table id="queue"><thead><tr><th>#</th><th>Location</th><th>Zone</th><th>Priority</th><th>Confidence</th><th>Why it ranks here</th></tr></thead><tbody></tbody></table></div></section>
+<section class="card wide"><h2>Incident trend monitor <small id="trendnote"></small></h2><canvas id="trend" width="1100" height="220"></canvas><p class="note">Red dots mark months more than 2 standard deviations above the zone's own average.</p></section>
+<section class="card wide"><h2>Fairness check: zone share of the top 100 <small>vs share of city population density</small></h2><div class="scroll"><table id="fair"></table></div></section>
+<section class="card wide"><h2>Compare interventions <button id="export">Export review list (CSV)</button></h2><label class="row">Crews review the top <b id="nv">50</b> locations <input type="range" id="topn" min="10" max="200" value="50"></label><div id="sim"></div></section>
+</main>
+<footer>Synthetic educational data, not real records. A decision aid for human review, not an automated decision. Resolution times on open items are unreliable and are not used in the score.</footer>
+<script src="data.js"></script><script src="app.js"></script></body></html>

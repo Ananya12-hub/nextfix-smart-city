@@ -1,0 +1,131 @@
+{
+  "data": {
+    "locations": 1000,
+    "incidents": 10000,
+    "complaints": 8000,
+    "days": 365.0
+  },
+  "split": {
+    "cut": "2025-10-01",
+    "train_days": 273.0,
+    "test_days": 92.0,
+    "folds": "5-fold x 3 repeats over locations"
+  },
+  "noise_diagnostics": {
+    "incident_dispersion_index": 1.058058058058058,
+    "split_half_spearman_hc": -0.040078939670770246,
+    "eb_alpha": 9999.962932768509,
+    "eb_weight_on_own_data": 0.00024544065409997273
+  },
+  "cv": {
+    "global_mean": {
+      "mae": {
+        "mean": 0.6744633333333333,
+        "sd": 0.01087592856827512
+      },
+      "poisson_deviance": {
+        "mean": 1.0837487807978108,
+        "sd": 0.02664504198908749
+      },
+      "spearman": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "top20_lift": {
+        "mean": 1.0326001628145678,
+        "sd": 0.16123333815109658
+      },
+      "folds_better_than_global_mean": 0.0
+    },
+    "repeat_last_period": {
+      "mae": {
+        "mean": 0.7093420073260075,
+        "sd": 0.021153024172401166
+      },
+      "poisson_deviance": {
+        "mean": 2.1731385998811112,
+        "sd": 0.27010600182736744
+      },
+      "spearman": {
+        "mean": 0.0055995239724223765,
+        "sd": 0.054845540363601876
+      },
+      "top20_lift": {
+        "mean": 0.975462374145983,
+        "sd": 0.14129738714737475
+      },
+      "folds_better_than_global_mean": 0.0
+    },
+    "gamma_poisson_eb": {
+      "mae": {
+        "mean": 0.675285254687206,
+        "sd": 0.011738054579713782
+      },
+      "poisson_deviance": {
+        "mean": 1.0822047026841142,
+        "sd": 0.027436173389387135
+      },
+      "spearman": {
+        "mean": 0.0055995239724223765,
+        "sd": 0.054845540363601876
+      },
+      "top20_lift": {
+        "mean": 0.975462374145983,
+        "sd": 0.14129738714737475
+      },
+      "folds_better_than_global_mean": 0.6666666666666666
+    },
+    "poisson_glm": {
+      "mae": {
+        "mean": 0.6729918674717815,
+        "sd": 0.009748457118587097
+      },
+      "poisson_deviance": {
+        "mean": 1.0839574335871138,
+        "sd": 0.026943454442811227
+      },
+      "spearman": {
+        "mean": 0.030355629539429448,
+        "sd": 0.04909247146082081
+      },
+      "top20_lift": {
+        "mean": 1.1112936044453667,
+        "sd": 0.12362431771796405
+      },
+      "folds_better_than_global_mean": 0.6666666666666666
+    },
+    "grad_boosting": {
+      "mae": {
+        "mean": 0.6685200479488309,
+        "sd": 0.011751043682010145
+      },
+      "poisson_deviance": {
+        "mean": 1.0989614214093295,
+        "sd": 0.03813146017402499
+      },
+      "spearman": {
+        "mean": 0.046718152682288364,
+        "sd": 0.0638870625359972
+      },
+      "top20_lift": {
+        "mean": 1.085444886354204,
+        "sd": 0.15701559761108116
+      },
+      "folds_better_than_global_mean": 0.3333333333333333
+    }
+  },
+  "final_model": {
+    "alpha": 9999.962932768509,
+    "beta": 1486756.1997802467,
+    "prior_rate_per_day": 0.006726027397260274
+  },
+  "interpretation": "The model finds High/Critical rates statistically similar across locations (split-half rank correlation -0.04; incident dispersion 1.06). Treat the ranking as a screening aid and verify on site.",
+  "runtime_seconds": {
+    "load_validate": 0.038,
+    "features": 0.029,
+    "cross_validation": 0.806,
+    "final_fit": 0.004,
+    "export_app": 0.032,
+    "total": 0.941
+  }
+}

@@ -1,0 +1,51 @@
+rank,location_id,zone,priority,confidence,reasons,forecast_hc_90d
+1,L0965,ZONE_20,66.2,High,12 injuries; 3 High/Critical incidents; 15 complaints (2 high priority),0.6053754489426948
+2,L0642,ZONE_02,62.7,High,"near a school, near a hospital, high pedestrian activity; 4 High/Critical incidents; 6 unresolved incidents, 6 open complaints",0.6054359685560345
+3,L0362,ZONE_05,61.5,High,"8 High/Critical incidents; 7 injuries; 6 unresolved incidents, 3 open complaints",0.6056780470093934
+4,L0729,ZONE_12,60.4,High,"7 High/Critical incidents; near a school, near a hospital, poor road condition; 9 complaints (4 high priority)",0.6056175273960537
+5,L0659,ZONE_19,60.3,High,8 High/Critical incidents; 7 injuries; 10 complaints (4 high priority),0.6056780470093934
+6,L0624,ZONE_13,59.7,High,"13 unresolved incidents, 6 open complaints; 4 High/Critical incidents; 11 complaints (2 high priority)",0.6054359685560345
+7,L0494,ZONE_14,58.3,High,"5 unresolved incidents, 8 open complaints; 4 High/Critical incidents; 14 complaints (1 high priority)",0.6054359685560345
+8,L0790,ZONE_16,57.8,Medium,"11 injuries; 3 High/Critical incidents; near a school, near a hospital",0.6053754489426948
+9,L0802,ZONE_14,57.4,High,"4 High/Critical incidents; near a school, near a hospital, high pedestrian activity; 3 unresolved incidents, 8 open complaints",0.6054359685560345
+10,L0556,ZONE_02,56.6,High,"5 High/Critical incidents; near a hospital, high pedestrian activity, poor road condition; 7 injuries",0.6054964881693743
+11,L0493,ZONE_18,55.0,High,"4 High/Critical incidents; 5 unresolved incidents, 5 open complaints; near a school, high pedestrian activity",0.6054359685560345
+12,L0368,ZONE_07,54.8,High,7 High/Critical incidents; 8 injuries; 12 complaints (3 high priority),0.6056175273960537
+13,L0757,ZONE_06,54.4,High,"3 unresolved incidents, 10 open complaints; 13 complaints (3 high priority); 6 High/Critical incidents",0.6055570077827139
+14,L0688,ZONE_09,53.3,High,"7 High/Critical incidents; near a school, high pedestrian activity, poor road condition; 7 unresolved incidents, 3 open complaints",0.6056175273960537
+15,L0243,ZONE_01,52.9,High,"4 High/Critical incidents; 12 complaints (4 high priority); 4 unresolved incidents, 6 open complaints",0.6054359685560345
+16,L0734,ZONE_18,52.8,High,"5 High/Critical incidents; 13 complaints (1 high priority); 5 unresolved incidents, 5 open complaints",0.6054964881693743
+17,L0939,ZONE_01,52.7,High,"4 High/Critical incidents; 8 injuries; 7 unresolved incidents, 3 open complaints",0.6054359685560345
+18,L0955,ZONE_17,52.2,High,13 injuries; 4 High/Critical incidents; 8 complaints (1 high priority),0.6054359685560345
+19,L0675,ZONE_19,52.0,High,"16 complaints (3 high priority); 5 unresolved incidents, 6 open complaints; 3 High/Critical incidents",0.6053754489426948
+20,L0048,ZONE_01,52.0,High,"7 High/Critical incidents; 3 unresolved incidents, 7 open complaints; 10 complaints (2 high priority)",0.6056175273960537
+21,L0219,ZONE_10,51.7,High,"near a school, near a hospital, high pedestrian activity; 6 unresolved incidents, 6 open complaints; 2 High/Critical incidents",0.6053149293293552
+22,L0140,ZONE_02,51.6,High,"4 High/Critical incidents; 7 injuries; 6 unresolved incidents, 1 open complaints",0.6054359685560345
+23,L0312,ZONE_04,51.6,High,"11 complaints (5 high priority); near a school, high pedestrian activity, poor road condition; 2 High/Critical incidents",0.6053149293293552
+24,L0974,ZONE_05,50.7,High,"7 High/Critical incidents; 3 unresolved incidents, 5 open complaints; 5 injuries",0.6056175273960537
+25,L0608,ZONE_05,50.4,High,"5 High/Critical incidents; 14 complaints (2 high priority); 5 unresolved incidents, 6 open complaints",0.6054964881693743
+26,L0982,ZONE_10,50.1,High,"4 High/Critical incidents; 7 injuries; 5 unresolved incidents, 5 open complaints",0.6054359685560345
+27,L0073,ZONE_10,50.0,High,"14 complaints (5 high priority); 4 High/Critical incidents; 5 unresolved incidents, 5 open complaints",0.6054359685560345
+28,L0294,ZONE_05,50.0,High,"5 unresolved incidents, 7 open complaints; 15 complaints (1 high priority); 4 High/Critical incidents",0.6054359685560345
+29,L0024,ZONE_10,49.9,High,"5 High/Critical incidents; 4 unresolved incidents, 6 open complaints; 6 injuries",0.6054964881693743
+30,L0606,ZONE_03,49.9,High,"3 unresolved incidents, 9 open complaints; 15 complaints (2 high priority); 4 High/Critical incidents",0.6054359685560345
+31,L0506,ZONE_18,49.9,High,"6 High/Critical incidents; 7 unresolved incidents, 3 open complaints; 5 injuries",0.6055570077827139
+32,L0952,ZONE_08,49.8,High,"5 High/Critical incidents; near a school, high pedestrian activity; 6 injuries",0.6054964881693743
+33,L0332,ZONE_10,49.5,High,"5 unresolved incidents, 7 open complaints; 3 High/Critical incidents; 11 complaints (4 high priority)",0.6053754489426948
+34,L0425,ZONE_03,49.5,High,"3 High/Critical incidents; 4 unresolved incidents, 5 open complaints; 12 complaints (2 high priority)",0.6053754489426948
+35,L0284,ZONE_04,49.4,High,"5 unresolved incidents, 5 open complaints; 14 complaints (1 high priority); 6 injuries",0.6052544097160154
+36,L0586,ZONE_18,49.3,High,"13 complaints (4 high priority); 6 High/Critical incidents; 4 unresolved incidents, 6 open complaints",0.6055570077827139
+37,L0157,ZONE_17,49.3,High,"6 High/Critical incidents; 5 unresolved incidents, 6 open complaints; 9 complaints (3 high priority)",0.6055570077827139
+38,L0565,ZONE_09,49.2,Medium,"near a school, near a hospital, high pedestrian activity, poor road condition; 4 High/Critical incidents; 6 unresolved incidents, 2 open complaints",0.6054359685560345
+39,L0300,ZONE_04,49.0,Medium,"5 High/Critical incidents; 5 unresolved incidents, 7 open complaints; 11 complaints (4 high priority)",0.6054964881693743
+40,L0496,ZONE_10,48.9,High,"13 complaints (4 high priority); near a school, high pedestrian activity; 4 High/Critical incidents",0.6054359685560345
+41,L0132,ZONE_15,48.8,High,"3 High/Critical incidents; 6 unresolved incidents, 5 open complaints; 7 injuries",0.6053754489426948
+42,L0181,ZONE_06,48.8,High,"3 High/Critical incidents; 7 unresolved incidents, 3 open complaints; 6 injuries",0.6053754489426948
+43,L0122,ZONE_15,48.6,High,"4 High/Critical incidents; 13 complaints (3 high priority); near a school, high pedestrian activity, poor road condition",0.6054359685560345
+44,L0419,ZONE_14,48.6,High,"6 unresolved incidents, 8 open complaints; 14 complaints (2 high priority); 3 High/Critical incidents",0.6053754489426948
+45,L0884,ZONE_04,48.4,High,"5 High/Critical incidents; 16 complaints (2 high priority); 3 unresolved incidents, 7 open complaints",0.6054964881693743
+46,L0218,ZONE_03,48.4,Medium,"near a school, high pedestrian activity, poor road condition; 5 unresolved incidents, 6 open complaints; 11 complaints (4 high priority)",0.6053149293293552
+47,L0612,ZONE_02,48.2,Medium,"3 High/Critical incidents; near a school, near a hospital; 6 injuries",0.6053754489426948
+48,L0163,ZONE_16,48.1,High,"6 unresolved incidents, 6 open complaints; 4 High/Critical incidents; 6 injuries",0.6054359685560345
+49,L0489,ZONE_13,48.0,High,"4 High/Critical incidents; 4 unresolved incidents, 5 open complaints; 8 complaints (3 high priority)",0.6054359685560345
+50,L0903,ZONE_12,47.8,High,5 High/Critical incidents; 13 complaints (3 high priority); 5 injuries,0.6054964881693743
